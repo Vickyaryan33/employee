@@ -1,10 +1,10 @@
-package service;
+package com.employee.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import Repository.EmployeeRepository;
-import entity.Employee;
+import com.employee.Repository.EmployeeRepository;
+import com.employee.entity.Employee;
 
 
 @Service

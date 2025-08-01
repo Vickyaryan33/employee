@@ -1,4 +1,4 @@
-package controller.copy;
+package com.employee.controller.copy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import entity.Employee;
-import service.EmployeeService;
+import com.employee.entity.Employee;
+import com.employee.service.EmployeeService;
 
 @RestController
 @RequestMapping("/api/v1/employee")
